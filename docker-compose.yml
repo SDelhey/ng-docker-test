@@ -1,0 +1,7 @@
+version: '2.3'
+services:
+    frontend:
+        container_name: angular-container
+        build: ./
+        ports:
+            - 80:80
